@@ -1,0 +1,36 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.3;
+
+import "";
+
+contract AimToken is ERC20 {
+    address public admin;
+
+    constructor() ERC20 "AimToken", "AIM"{
+        _mint(msg.sender, 1000000*10**18);
+        admin = msg.sender;
+    }
+
+    function mint(address receiver, uint amount) = function buyToken(address receiver, uint amount);
+
+    function buyToken(address receiver, uint amount) public payable {
+        uint tokenFee =
+        require{msg.sender == admin, 'only admin'};
+        _mint{receiver, amount};
+    }
+
+    function
+}
+
+hair rib people ranch aerobic pizza arrow top motor vast monkey woman
+
+[
+  {
+    "path": "hand.png",
+    "hash": "QmVadzsUKaT9w48LMqByvKY4DGXHbWnY6KKzuywFNiEiEb",
+    "size": 58945
+  }
+]
+
+ipfs/QmYeRRKqPsDE9fth89DwGXd74Zd6to2aPtXzvrNpM8wudr
